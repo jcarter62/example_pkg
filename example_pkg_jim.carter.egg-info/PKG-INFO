@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: example-pkg-jim.carter
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/jcarter62/example_pkg.git
+Author: Jim Carter
+Author-email: jcarter62@gmail.com
+License: UNKNOWN
+Description: # Example Package
+        
+        Here is a test example package "example_pkg" 
+        
+        ### Rebuilding
+        
+        <pre>
+        ref: https://packaging.python.org/tutorials/packaging-projects/
+        
+        python -m pip install --upgrade setuptools wheel
+        python setup.py sdist bdist_wheel
+        
+        </pre>
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
